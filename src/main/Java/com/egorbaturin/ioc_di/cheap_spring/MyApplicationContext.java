@@ -34,7 +34,7 @@ public class MyApplicationContext {
             Field[] fields = bean.getClass().getDeclaredFields();
             for (Field field : fields) {
                 if (field.isAnnotationPresent(RequestComponent.class)) {
-                    field.setAccessible(true); // Делаем поле доступным
+                    field.setAccessible(true);
                     try {
                         Class<?> fieldType = field.getType();
                         Object dependency = beans.get(fieldType);
