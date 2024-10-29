@@ -1,4 +1,4 @@
-package com.egorbaturin.ioc_di;
+package com.egorbaturin.ioc_di.lose;
 
 public interface UserRepository {
     void save(User user);

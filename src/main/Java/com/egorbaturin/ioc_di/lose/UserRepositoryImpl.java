@@ -1,4 +1,4 @@
-package com.egorbaturin.ioc_di;
+package com.egorbaturin.ioc_di.lose;
 
 import java.util.HashMap;
 import java.util.Map;

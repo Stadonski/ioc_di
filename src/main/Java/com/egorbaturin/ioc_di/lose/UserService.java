@@ -1,4 +1,4 @@
-package com.egorbaturin.ioc_di;
+package com.egorbaturin.ioc_di.lose;
 
 public class UserService {
     private UserRepository userRepository;
